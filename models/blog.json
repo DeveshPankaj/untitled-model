@@ -1,0 +1,7 @@
+{
+  "blog_id":{"dtype":"int", "primary":true},
+  "subject":{"dtype":"string","size":150},
+  "body":{"dtype":"text"},
+  "sender":{"dtype":"foreign", "model":"user"},
+  "liks":{"dtype":"int"}
+}

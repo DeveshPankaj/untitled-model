@@ -1,0 +1,6 @@
+{
+  "id" : {"dtype":"int","primary":true,"auto-inc":true},
+  "name" : {"dtype":"string","size":100},
+  "branch_id": {"dtype":"foreign", "model":"branch"}
+
+}

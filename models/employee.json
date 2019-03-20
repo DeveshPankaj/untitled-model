@@ -1,0 +1,5 @@
+{
+  "id" : {"dtype":"int","primary":true,"auto-inc":true,"size":8},
+  "user_id" : {"dtype":"int","unique":true},
+  "position":{"dtype":"string","size":100}
+}

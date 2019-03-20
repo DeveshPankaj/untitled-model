@@ -1,0 +1,5 @@
+{
+  "id" : {"dtype":"int","primary":true,"auto-inc":true},
+  "name" : {"dtype":"string","size":100},
+  "hod" : {"dtype":"string","size":100}
+}

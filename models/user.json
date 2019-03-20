@@ -1,0 +1,8 @@
+{
+  "id" : {"dtype":"int","primary":true,"unique":true,"size":8,"auto-inc":true},
+  "name" : {"dtype":"string","size":100},
+  "address" : {"dtype":"text"},
+  "password" : {"dtype":"string","size":100,"secure":true},
+  "department_id":{"dtype":"foreign", "model":"department"},
+  "other_id":{"dtype":"foreign", "model":"department"}
+}
